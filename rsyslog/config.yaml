@@ -19,8 +19,10 @@ map:
 ports:
   514/tcp: 514
   514/udp: 514
+  2514/tcp: 2514
 ports_description:
   514/tcp: rsyslog TCP Port
   514/udp: rsyslog UDP Port
+  2514/tcp: rsyslog RELP Port
 options: {}
 schema: {}
